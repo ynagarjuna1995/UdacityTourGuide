@@ -25,10 +25,11 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    /** Context of the app */
+    final int PAGE_COUNT = 4;
+    /**
+     * Context of the app
+     */
     private Context mContext;
-
-    final int PAGE_COUNT = 3;
 
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -39,10 +40,12 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new TopSpotsFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new RestaurantsFragment();
-        } else {
+        } else if (position == 2) {
             return new EventsFragment();
+        } else {
+            return new MuseumsFragment();
         }
     }
 
@@ -57,8 +60,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.category_top_spots);
         } else if (position == 1) {
             return mContext.getString(R.string.category_restaurants);
-        } else {
+        } else if (position == 2) {
             return mContext.getString(R.string.category_events);
+        } else {
+            return mContext.getString(R.string.category_museums);
         }
     }
 }

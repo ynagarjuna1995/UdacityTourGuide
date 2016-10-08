@@ -57,7 +57,7 @@ public class SpotsAdapter extends ArrayAdapter<Spots> {
             // get the views from the ViewHolder and then set the values
             viewHolder.spotName.setText(currentSpot.getSpotName());
             viewHolder.spotDesc.setText(currentSpot.getSpotDescription());
-            viewHolder.spotImage.setImageResource(currentSpot.getImageResourseId());
+            viewHolder.spotImage.setImageResource(currentSpot.getImageResourceId());
         }
 
         return convertView;

@@ -36,9 +36,12 @@
     </string>
 
     <string name="category_top_spots">Top Spots</string>
-    <string name="category_restaurants">Restaurants</string>
+    <string name="category_restaurants">Eateries</string>
     <string name="category_events">Events</string>
+    <string name="category_museums">Museums</string>
 
+    <string name="spot1_name">Sabarmati Ashram</string>
+    <string name="spot1_brief">"Spiritual site in Gandhiji's former home"</string>
     <string name="sabarmati_ashram">
         "Sabarmati Ashram (also known as Gandhi Ashram, Harijan Ashram, or Satyagraha Ashram) is located in the"
         "Sabarmati suburb of Ahmedabad, Gujarat, adjoining the Ashram Road, on the banks of the River Sabarmati,"
@@ -53,6 +56,8 @@
         "Indian government has established the ashram as a national monument."
     </string>
 
+    <string name="spot2_name">"Kankaria Lake"</string>
+    <string name="spot2_brief">"One of the largest lakes in the city"</string>
     <string name="kankaria_lake">
         "Kankaria Lake, formerly known as Hauz e Qutub, is the second largest lake in Ahmedabad, Gujarat, India.\n\n"
 
@@ -64,6 +69,8 @@
         "activities are organised during the carnival."
     </string>
 
+    <string name="restaurant1_name">"Barbeque Nation"</string>
+    <string name="restaurant1_brief">"The pioneers of live-grills and saucy appetizers"</string>
     <string name="bbq_nation">
         "The pioneers of live-grills and saucy appetizers have come a long way to bring the taste every mouth craves."
         "Here's a throwback of that fiery journey.\n\n"
@@ -81,6 +88,8 @@
         "a main course vegetarian and non-vegetarian buffet along with variety of soups, salads and desserts.\n\n"
     </string>
 
+    <string name="restaurant2_name">"Neelkanth Patang"</string>
+    <string name="restaurant2_brief">"50m-high revolving buffet restaurant"</string>
     <string name="neelkanth_patang">
         "Neelkanth Patang is located on a purpose-built tower overlooking the cityscape from about 221ft above the ground"
         "on which it is set.\n\n"
@@ -96,6 +105,8 @@
         "Moreover, they usually have live music concerts, like ghazals, at dinner time."
     </string>
 
+    <string name="restaurant3_name">"Vishalla"</string>
+    <string name="restaurant3_brief">"Stylishly understated outdoor dining from a menu of classic village sharing platters."</string>
     <string name="vishala">
         "Vishalla's portrayal as a typical Indian village can be traced back to the childhood memories of the designer.\n\n"
 
@@ -105,6 +116,8 @@
         "campus and in its decorum, which now makes us all proud of its rich culture."
     </string>
 
+    <string name="event1_name">"Navratri"</string>
+    <string name="event1_brief">"Garba is a dance which people perform on Navratri"</string>
     <string name="garba">
         "Garba (ગરબા in Gujarati) is a form of dance which was originated in the state of Gujarat in India. The name is derived from the"
         "Sanskrit term Garbha ("womb") and Deep ("a small earthenware lamp").\n\n"
@@ -118,12 +131,47 @@
         "Both men and women usually wear colorful costumes while performing garba and dandiya. There is a huge interest in Garba among the"
         "youth of India and in particular, the Gujarati diaspora."
     </string>
-    
+
+    <string name="event2_name">"Kankaria Carnival"</string>
+    <string name="event2_brief">"Week-long cultural festival"</string>
     <string name="kankaria_carnival">
         "Kankaria Carnival is a week-long festival being held here in last week of December. Many cultural, art and social activities are "
         "organised during carnival.\n\n"
 
         "The annual Kankaria carnival has several attractions including an augmented reality show, flogos, a light and sound show and other"
         "attractions. The lakefront buzzes with activity."
+    </string>
+
+    <string name="museum1_name">Calico Textile Museum</string>
+    <string name="museum1_brief">A premier textile museum of the country</string>
+    <string name="calico_museum">
+        "The Calico Museum of Textiles at Ahmedabad, India, is the premier textile museum of the country, and one of the most celebrated "
+        "institutions of its kind in the world for its distinguished and comprehensive collection of textiles and artifacts.\n\n"
+
+        "The Calico collection along with those of Sarabhai Foundation’s collection of outstanding Bronzes, Pichhwais, Jain art objects "
+        "and Indian miniature paintings are housed at the Retreat complex of Sarabhai Foundation in the Shahibag area of the city.\n\n"
+
+        "Both the Calico Museum and the Sarabhai Foundation have major collections and an extensive programme of publications."
+    </string>
+
+    <string name="museum2_name">Vintage Car Museum</string>
+    <string name="museum2_brief"> A collections of Antique Vehicles</string>
+    <string name="auto_world">
+        "Auto World is a part of one of the most important collections of Antique Vehicles, Cars, Motorcycles, Utility Vehicles, Buggies etc."
+        "built byfamily of Shri Pranlal Bhogilal over the last century. It represents several of the greatest marques of cars from all over "
+        "the world, of all types and ages.\n\n"
+
+        "Auto World showcases that time of history when an automobile was not a mere means of transport but a symbol of wealth, power &amp; style;"
+        "the mighty ceremonial limousines, the romantic convertibles &amp; the snappy Sports Cars, cars specially coach built like Railway Saloons, "
+        "Horse drawn carriages, Boat tailed Wooden Speedsters, Shooting Brakes-Cars built for the rich &amp; famous.Cars to see and be seen in.\n\n"
+
+        "Auto World, various pavilions built on acres of verdant grounds showcase more than 100 of the finest cars in the world such as "
+        "Rolls-Rocyces, Bentleys, Daimlers, Langondas, Mercedeces, Maybach, Packards, Cadillacs, Buicks, Auburns, Cord, Lancias, Lincolns, "
+        "Chryslers and many other distinguished makes from USA, UK &amp; Europe. Most of the cars are coach built by renowned coach builders "
+        "like Hooper, Barker, Gurney-Nutting, Fleetwood, Labaron etc. They are all hand built to individual specifications of the buyer.\n\n"
+
+        "Here are special cars like Limousines &amp; Grand open Tourers for ceremonial Occasions, there are convertible cars for evening drives,"
+        "there are station wagons like boats as well as like a horse drawn carriage especially built for the family's evening drives in the "
+        "Dastan estate."
     </string>
 </resources>

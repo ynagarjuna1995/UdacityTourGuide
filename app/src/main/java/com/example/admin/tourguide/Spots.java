@@ -6,26 +6,26 @@ package com.example.admin.tourguide;
 
 public class Spots {
     private int mImageResourseId;
-    private String mSpotName;
-    private String mSpotDescription;
+    private int mSpotName;
+    private int mSpotDescription;
     private int mSpotDetail;
 
-    public Spots(String spotName, String spotDescription, int imageResourseId, int spotDetail) {
+    public Spots(int spotName, int spotDescription, int imageResourseId, int spotDetail) {
         mSpotName = spotName;
         mSpotDescription = spotDescription;
         mImageResourseId = imageResourseId;
         mSpotDetail = spotDetail;
     }
 
-    public String getSpotName() {
+    public int getSpotName() {
         return mSpotName;
     }
 
-    public String getSpotDescription() {
+    public int getSpotDescription() {
         return mSpotDescription;
     }
 
-    public int getImageResourseId() {
+    public int getImageResourceId() {
         return mImageResourseId;
     }
 

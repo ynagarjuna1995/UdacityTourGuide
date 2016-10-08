@@ -17,6 +17,10 @@ import java.util.ArrayList;
  */
 public class RestaurantsFragment extends Fragment {
 
+    private static final String SPOT_IMAGE = "SPOT_IMAGE";
+    private static final String SPOT_NAME = "SPOT_NAME";
+    private static final String SPOT_DESC = "SPOT_DESC";
+    private static final String CATEGORY_NAME = "CATEGORY_NAME";
 
     public RestaurantsFragment() {
         // Required empty public constructor
@@ -30,9 +34,9 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.spots_list, container, false);
 
         final ArrayList<Spots> spots = new ArrayList<Spots>();
-        spots.add(new Spots("Barbeque Nation", "The pioneers of live-grills and saucy appetizers", R.drawable.bbqnation, R.string.bbq_nation));
-        spots.add(new Spots("Neelkanth Patang", "50m-high revolving buffet restaurant", R.drawable.patang, R.string.neelkanth_patang));
-        spots.add(new Spots("Vishalla", "Stylishly understated outdoor dining from a menu of classic village sharing platters.", R.drawable.vishalla, R.string.vishala));
+        spots.add(new Spots(R.string.restaurant1_name, R.string.restaurant1_brief, R.drawable.bbqnation, R.string.bbq_nation));
+        spots.add(new Spots(R.string.restaurant2_name, R.string.restaurant2_brief, R.drawable.patang, R.string.neelkanth_patang));
+        spots.add(new Spots(R.string.restaurant3_name, R.string.restaurant3_brief, R.drawable.vishalla, R.string.vishala));
 
         final SpotsAdapter adapter = new SpotsAdapter(getActivity(), spots);
 
@@ -45,18 +49,18 @@ public class RestaurantsFragment extends Fragment {
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
 
                 Spots restaurants = (Spots) adapter.getItem(position);
-                String spotName = (String) restaurants.getSpotName();
-                Integer spotImage = (Integer) restaurants.getImageResourseId();
+                Integer spotName = (Integer) restaurants.getSpotName();
+                Integer spotImage = (Integer) restaurants.getImageResourceId();
                 Integer spotDesc = (Integer) restaurants.getSpotDetail();
 
                 Intent intent = new Intent(getActivity(), SpotDetailActivity.class);
 
                 Bundle bundle = new Bundle();
 
-                bundle.putInt("SPOT_IMAGE", spotImage);
-                bundle.putString("SPOT_NAME", spotName);
-                bundle.putInt("SPOT_DESC", spotDesc);
-                bundle.putInt("CATEGORY_NAME", R.string.category_restaurants);
+                bundle.putInt(SPOT_IMAGE, spotImage);
+                bundle.putInt(SPOT_NAME, spotName);
+                bundle.putInt(SPOT_DESC, spotDesc);
+                bundle.putInt(CATEGORY_NAME, R.string.category_restaurants);
 
                 intent.putExtras(bundle);
                 startActivity(intent);

@@ -15,14 +15,14 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TopSpotsFragment extends Fragment {
+public class MuseumsFragment extends Fragment {
 
     private static final String SPOT_IMAGE = "SPOT_IMAGE";
     private static final String SPOT_NAME = "SPOT_NAME";
     private static final String SPOT_DESC = "SPOT_DESC";
     private static final String CATEGORY_NAME = "CATEGORY_NAME";
 
-    public TopSpotsFragment() {
+    public MuseumsFragment() {
         // Required empty public constructor
     }
 
@@ -34,8 +34,8 @@ public class TopSpotsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.spots_list, container, false);
 
         final ArrayList<Spots> spots = new ArrayList<Spots>();
-        spots.add(new Spots(R.string.spot1_name, R.string.spot1_brief, R.drawable.gandhi_ashram, R.string.sabarmati_ashram));
-        spots.add(new Spots(R.string.spot2_name, R.string.spot2_brief, R.drawable.kankaria, R.string.kankaria_lake));
+        spots.add(new Spots(R.string.museum1_name, R.string.museum1_brief, R.drawable.calico, R.string.calico_museum));
+        spots.add(new Spots(R.string.museum2_name, R.string.museum2_brief, R.drawable.vintage_car, R.string.auto_world));
 
 
         final SpotsAdapter adapter = new SpotsAdapter(getActivity(), spots);
