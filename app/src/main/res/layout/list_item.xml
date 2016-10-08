@@ -11,7 +11,7 @@
         android:minHeight="@dimen/text_margin">
 
         <ImageView
-            android:id="@+id/image"
+            android:id="@+id/spot_image"
             android:layout_width="match_parent"
             android:layout_height="124dp"
             android:scaleType="centerCrop"
@@ -21,7 +21,7 @@
             android:id="@+id/spot_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/image"
+            android:layout_alignBottom="@+id/spot_image"
             android:padding="8dp"
             android:textColor="@android:color/white"
             android:textSize="24sp"

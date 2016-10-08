@@ -17,6 +17,7 @@ import android.widget.FrameLayout;
     Class to make view with rounded corners
     Credits: Jaap van Hengstum
     Source: StackOverflow
+    URL: https://goo.gl/Gam9wS
  */
 public class RoundedCornerLayout extends FrameLayout {
     private final static float CORNER_RADIUS = 7.0f;

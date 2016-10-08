@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="@string/title_text"
             android:textColor="@color/colorAccent"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textStyle="bold" />
 
         <TextView

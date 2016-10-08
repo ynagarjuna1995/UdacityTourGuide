@@ -14,6 +14,12 @@ import java.util.ArrayList;
  * Created by admin on 9/26/2016.
  */
 
+class ViewHolder {
+    TextView spotName;
+    TextView spotDesc;
+    ImageView spotImage;
+}
+
 public class SpotsAdapter extends ArrayAdapter<Spots> {
 
     public SpotsAdapter(Activity context, ArrayList<Spots> spots) {
@@ -22,26 +28,39 @@ public class SpotsAdapter extends ArrayAdapter<Spots> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+
+        ViewHolder viewHolder;
+
+        if (convertView == null) {
+
+            // inflate the layout
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+
+            // well set up the ViewHolder
+            viewHolder = new ViewHolder();
+            viewHolder.spotName = (TextView) convertView.findViewById(R.id.spot_name);
+            viewHolder.spotDesc = (TextView) convertView.findViewById(R.id.spot_desc);
+            viewHolder.spotImage = (ImageView) convertView.findViewById(R.id.spot_image);
+
+            // store the holder with the view.
+            convertView.setTag(viewHolder);
+
+        } else {
+            viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        Spots currentTopSpot = getItem(position);
+        // object item based on the position
+        Spots currentSpot = getItem(position);
 
-        TextView spotName = (TextView) listItemView.findViewById(R.id.spot_name);
+        // assign values if the object is not null
+        if (currentSpot != null) {
+            // get the views from the ViewHolder and then set the values
+            viewHolder.spotName.setText(currentSpot.getSpotName());
+            viewHolder.spotDesc.setText(currentSpot.getSpotDescription());
+            viewHolder.spotImage.setImageResource(currentSpot.getImageResourseId());
+        }
 
-        spotName.setText(currentTopSpot.getSpotName());
+        return convertView;
 
-        TextView spotDescription = (TextView) listItemView.findViewById(R.id.spot_desc);
-
-        spotDescription.setText(currentTopSpot.getSpotDescription());
-
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-
-        imageView.setImageResource(currentTopSpot.getImageResourseId());
-
-        return listItemView;
     }
 }
