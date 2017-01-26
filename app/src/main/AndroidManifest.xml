@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.admin.tourguide">
+    package="io.github.ynagarjuna1995.tourguide">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="io.github.ynagarjuna1995.tourguide.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,14 +19,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SpotDetailActivity"
-            android:parentActivityName=".SpotsActivity">
+            android:name="io.github.ynagarjuna1995.tourguide.PlaceDetailActivity"
+            android:parentActivityName="io.github.ynagarjuna1995.tourguide.PlaceActivity">
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".SpotsActivity"
+            android:name="io.github.ynagarjuna1995.tourguide.PlaceActivity"
             android:label="@string/title_text"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="io.github.ynagarjuna1995.tourguide.MainActivity">
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

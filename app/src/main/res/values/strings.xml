@@ -1,177 +1,99 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
-    <string name="title_text">Ahmedabad, India</string>
+    <string name="app_name">Udacity Tour Guide</string>
+    <string name="title_text">Hyderabad, India</string>
     <string name="large_text">
-        "Ahmedabad is the largest city and former capital of Gujarat, which is a state in India.\n\n"
+        "Hyderabad is the largest city and the capital of the southern Indian state of Telangana in India\n\n"
 
-        "With a population of more than 6.3 million and an extended population"
-        "of 7.8 million, it is the sixth largest city and seventh largest metropolitan area of India.\n\n"
+        "Want a taste of being royal? Eat in Hyderabad, where culinary traditions have been passed down from the Nizam monarchy.Arabic, Turkish and Mughlai influences are easily recognisable. The city is famous for its rich,aromatic biryani made with lamb, chicken or vegetables and served with fragrant basmati rice. Satisfy yoursweet tooth with double-ka-meetha, a bread pudding.\n\n"
 
-        "Ahmedabad is located on the banks of the Sabarmati River, 30 km (19 mi) from the state"
-        "capital Gandhinagar.\n\n"
+        "The Charminar, constructed in 1591 CE, is a monument and mosque located in Hyderabad, Telangana, India.The landmark has become a global icon of Hyderabad, listed among the most recognized structures of India\n\n"
 
-        "Ahmedabad has emerged as an important economic and industrial hub in India.\n"
-        "It is the second largest producer of cotton in India, and its stock exchange"
-        "is the country's second oldest.\n\n"
-
-        "Cricket is a popular sport in Ahmedabad, which houses the 54,000-seat Sardar Patel Stadium.\n\n"
-
-        "The effects of liberalisation of the Indian economy have energised the city's economy"
-        "towards tertiary sector activities like commerce, communication and construction.\n\n"
+        "The Hyderabad Information Technology and Engineering Consultancy City, abbreviated as HITEC City,is one of the leading Information Technology, Engineering, Health informatics, and Bioinformatics hubs of India situated in Hyderabad, India.\n\n"
 
     </string>
     <string name="action_settings">Settings</string>
 
-    <string name="test_text">
+    <string name="lorem_text">
+        "In dolor turpis, varius at metus nec, dignissim vulputate tortor. Nullam eget elit metus. Donec eu purus dignissim, "
+        "congue orci non, vestibulum lectus. Maecenas venenatis a diam ut consectetur. Pellentesque habitant morbi tristique "
+        "senectus et netus et malesuada fames ac turpis egestas. Praesent euismod metus vitae vehicula consectetur. Praesent "
+        "quis nisi velit."
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae massa at velit bibendum venenatis. Vestibulum"
         "erat felis, laoreet nec ornare sed, elementum sit amet urna. Morbi vehicula a turpis eu egestas. Donec magna orci,"
         "rutrum sit amet dapibus feugiat, mollis ut libero. Mauris et consequat felis, pellentesque rhoncus magna. Phasellus "
         "id quam sodales, accumsan urna eu, aliquet felis. Sed vitae purus ut leo posuere tempor. Sed euismod sem sit amet "
         "finibus aliquam.\n\n"
-
-        "In dolor turpis, varius at metus nec, dignissim vulputate tortor. Nullam eget elit metus. Donec eu purus dignissim, "
-        "congue orci non, vestibulum lectus. Maecenas venenatis a diam ut consectetur. Pellentesque habitant morbi tristique "
-        "senectus et netus et malesuada fames ac turpis egestas. Praesent euismod metus vitae vehicula consectetur. Praesent "
-        "quis nisi velit."
     </string>
 
-    <string name="category_top_spots">Top Spots</string>
-    <string name="category_restaurants">Eateries</string>
-    <string name="category_events">Events</string>
-    <string name="category_museums">Museums</string>
+    <string name="category_Monuments">Historical Places</string>
+    <string name="category_RecreationalPlace">Recreational/Fun Attractions</string>
+    <string name="category_Temples">Temples</string>
+    <string name="category_Museums">Museums</string>
 
-    <string name="spot1_name">Sabarmati Ashram</string>
-    <string name="spot1_brief">"Spiritual site in Gandhiji's former home"</string>
-    <string name="sabarmati_ashram">
-        "Sabarmati Ashram (also known as Gandhi Ashram, Harijan Ashram, or Satyagraha Ashram) is located in the"
-        "Sabarmati suburb of Ahmedabad, Gujarat, adjoining the Ashram Road, on the banks of the River Sabarmati,"
-        "four miles from the town hall.\n\n"
+    <string name="historical_name1">Charminar</string>
+    <string name="historical_brief1">"Charminar first monument that comes to mind"</string>
+    <string name="charminar">
+        "The Charminar, constructed in 1591 CE, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become a global icon of Hyderabad, listed among the most recognized structures of India\n\n"
 
         "This was one of the residences of Mohandas Karamchand Gandhi, generally called Mahatma Gandhi, who lived"
         there for about twelve years along with his wife, Kasturba Gandhi."
-
-        "It was from his base here that Gandhi led the Dandi march also known as the Salt Satyagraha on 12 March 1930."
-
-        "In recognition of the significant influence that this march had on the Indian independence movement the
-        "Indian government has established the ashram as a national monument."
+        "The English name is a translation and combination of the Urdu words Chār and Minar or meenar, translating to "Four Towers"; the eponymous towers are ornate minarets attached and supported by four grand arches.[3]
+Some of the popular myths that are recorded in accord with the monument\'s architectural appearance are as follows.
+The Archaeological Survey of India (ASI), the current caretaker of the structure, mentions in its records that, "There are various theories regarding the purpose for which Charminar was constructed. However, it is widely accepted that charminar was built at the center of the city, to commemorate the eradication of plague", a deadly disease which was wide spread at that time.[5] as Muhammad Quli Qutb Shah had prayed for the end of a plague that was ravaging his city and vowed to build a Mosque at the very place where he prayed.[6] According to Jean de Thévenot, a French traveller of the 17th century whose narration was complemented with the available Persian texts, the Charminar was constructed in the year 1591 CE, to commemorate the beginning of the second Islamic millennium year (1000 AH). The event was celebrated far and wide in the Islamic world, thus Qutb Shah founded the city of Hyderabad to celebrate the event and commemorate it with the construction of this building.[7][8]:17–19"
     </string>
 
-    <string name="spot2_name">"Kankaria Lake"</string>
-    <string name="spot2_brief">"One of the largest lakes in the city"</string>
-    <string name="kankaria_lake">
-        "Kankaria Lake, formerly known as Hauz e Qutub, is the second largest lake in Ahmedabad, Gujarat, India.\n\n"
-
-        "It is located in the south-eastern part of the city, in the Maninagar area. A lakefront is developed around "
-        "it, which has many public attractions such as a zoo, toy train, kids city, tethered balloon ride, water rides,"
-        "water park, food stalls, and entertainment facilities. The lakefront was revamped in 2008.\n\n"
-
-        "Kankaria Carnival is a week-long festival held here in the last week of December. Many cultural, art, and social"
-        "activities are organised during the carnival."
+    <string name="historical_name2">"Golconda Fort"</string>
+    <string name="historical_brief2">"Golconda one of the oldest fort"</string>
+    <string name="golconda">
+        "Golkonda Fort was first built by the Kakatiya dynasty as part of their western defenses along the lines of the Kondapalli Fort. The city and the fortress were built on a granite hill that is 120 meters (480 ft) high, surrounded by massive battlements. The fort was rebuilt and strengthened by Rani Rudrama Devi and her successor Prataparudra.[1][2] Later, the fort came under the control of the Musunuri Nayaks, who defeated the Tughlaqi army occupying Warangal.[3] It was ceded by the Musunuri Kapaya Nayak to the Bahmani Sultanate as part of a treaty in 1364.[4][5]\n\n"
+        "Under the Bahmani Sultanate, Golkonda slowly rose to prominence. Sultan Quli Qutb-ul-Mulk (r. 1487–1543), sent as a governor of Telangana, established it as the seat of his government around 1501. Bahmani rule gradually weakened during this period, and Sultan Quli formally became independent in 1538, establishing the Qutb Shahi dynasty based in Golkonda.[6][7] Over a period of 62 years, the mud fort was expanded by the first three Qutb Shahi sultans into the present structure, a massive fortification of granite extending around 5 km in circumference. It remained the capital of the Qutb Shahi dynasty until 1590 when the capital was shifted to Hyderabad. The Qutb Shahis expanded the fort, whose 7 kilometres (4.3 mi) outer wall enclosed the city."
     </string>
 
-    <string name="restaurant1_name">"Barbeque Nation"</string>
-    <string name="restaurant1_brief">"The pioneers of live-grills and saucy appetizers"</string>
-    <string name="bbq_nation">
-        "The pioneers of live-grills and saucy appetizers have come a long way to bring the taste every mouth craves."
-        "Here's a throwback of that fiery journey.\n\n"
+    <string name="fun_name1">"Ramoji Flim City"</string>
+    <string name="fun_brief1">"Ramoji is the Biggest Flim City in Asia"</string>
+    <string name="ramoji">
+        "Escape to Ramoji Film City, a magical realm filled with excitement and wonderful surprises at every turn. As the world\’s largest integrated film city and India\'s only thematic holiday destination with magic of cinema, there\’s something special for you here. Spread across a sprawling 2000 acres Ramoji Film City, set up by Ramoji Group in 1996, is a dreamy celluloid journey. Certified by the Guinness World Records as the world\’s largest Filmstudio complex, at Ramoji Film City, a filmmaker can walk with a script and walk out with film. For the others, Ramoji Film City flung open a wonderland where 1.5 million tourists build memories every year.\n\n"
 
-        "Over-the-table Barbeque\n"
-        "Barbeque Nation, founded in 2006, pioneered the concept of live grills embedded on the dining tables for a"
-        "complete dining experience.\n\n"
-
-        "Era of 'DIY cuisine' in India\n"
-        "The unique DIY concept caught the fancy of food-lovers across India as Barbeque Nation offered both vegetarian"
-        "and non-vegetarian menus, drawn from Mediterranean, American, Oriental, Asian and the Indian cuisines.\n\n"
-
-        "Musings on the Menu\n"
-        "The introduced menu comprised of 5-vegetarian and 5 non-vegetarian barbeque starters in unlimited helpings, "
-        "a main course vegetarian and non-vegetarian buffet along with variety of soups, salads and desserts.\n\n"
+        "The Ramoji Film City in India is located in Hyderabad. At 2000 acres, it is the largest integrated film city in the world. It holds the Guinness World Records for being the largest film studio complex in the world and measures 674 ha. \n\n"
     </string>
 
-    <string name="restaurant2_name">"Neelkanth Patang"</string>
-    <string name="restaurant2_brief">"50m-high revolving buffet restaurant"</string>
-    <string name="neelkanth_patang">
-        "Neelkanth Patang is located on a purpose-built tower overlooking the cityscape from about 221ft above the ground"
-        "on which it is set.\n\n"
+    <string name="fun_name2">"Snow World"</string>
+    <string name="fun_brief2">"50m-high revolving buffet restaurant"</string>
+    <string name="snowworld">
+        "Snow World is an amusement park located in Hyderabad, Telangana, India within an area of about 2 acres (0.81 ha). Located beside Indira Park and along the Hussain Sagar lake, the park was inaugurated on 28 January 2004.\n\n"
 
-        "A revolving restaurant, the pleasure of a meal here is further enhanced by the different panoramic"
-        "views of the city, including the Sabarmati riverfront.\n\n"
-
-        "You'll only get buffets here, and a huge spread of soups, salads, Tandoori, international starters, "
-        "multi-cuisine mains, Indian sweets, Western desserts and ice creams awaits you.\n\n"
-
-        "There are performance stations as well, where food is cooked in front of you. While most of their dishes deserve a thumbs"
-        "up, the Tandoori starters and North Indian curries are particularly popular. Special festive buffets are also held."
-        "Moreover, they usually have live music concerts, like ghazals, at dinner time."
+        "Two-hundred tonnes of artificial snow was laid on the layered flooring which was specially prepared to avoid seepage or melting. Every day, the top layer of snow is cleaned and an additional two to three tonnes of snow, which is generated within the facility, is used to top the snow spread. The artificial snow is made using a patented technology from Australia. The water used is filtered four times before utilising it to make snow such that even if children consume it, they will not be harmed.[4]
+The park can accommodate a total of 2,400 visitors in a day. Every visitor gets acclimatised to lower temperatures in a step-wise manner, 20 °C (68 °F), then 0 °C, and then a sub zero temperature. This method is approved internationally.[4] In addition, visitors are given protective clothing and a steaming cup of soup to help them acclimatise to the temperature change.[6] The internal area, also called as the Cryo Zone,[5] maintains a constant temperature of – 5 °C. For 1 hour, a maximum of 300 visitors at a time can explore the different facilities such as kids snow play area, snow wars, snow tube slide, sleigh slide, ice-bumping cars, merry-go-round and an ice skating rink.[4]"
     </string>
 
-    <string name="restaurant3_name">"Vishalla"</string>
-    <string name="restaurant3_brief">"Stylishly understated outdoor dining from a menu of classic village sharing platters."</string>
-    <string name="vishala">
-        "Vishalla's portrayal as a typical Indian village can be traced back to the childhood memories of the designer.\n\n"
 
-        "In the city, he could never find the same free, relaxed, natural living that he had experienced during the school"
-        "vacations he spent in the village. As a designer, he always thought about ways to bring the urban milieu closer to "
-        "nature and sharing with them the blessed experience of feeling free. He actualized his ideas through the Vishalla "
-        "campus and in its decorum, which now makes us all proud of its rich culture."
+
+    <string name="temple1_name">"Birla Mandir"</string>
+    <string name="temple1_brief">"Lord Venkateswara, Padmavati and Andal are housed in temple Shirne"</string>
+    <string name="birlaMandir">
+        "Birla Mandir is a Hindu temple, built on a 280 feet high hillock called Naubath Pahad on a 13 acres plot. The construction took 10 years and was opened in 1976 by Swami Ranganathananda of Ramakrishna Mission.\n Archeitecture:\nThe temple manifests a blend of Dravidian, Rajasthani and Utkala architectures. It is constructed of 2000 tons of pure white marble. The granite idol of presiding deity Lord Venkateswara is about 11 ft (3.4 m) tall and a carved lotus forms an umbrella on the top. There is a brass flagstaff in the temple premises which rises to a height of 42 ft (13 m). The temple does not have traditional bells, as Swami Ranganathananda wished that the temple atmosphere should be conducive for meditation."
     </string>
 
-    <string name="event1_name">"Navratri"</string>
-    <string name="event1_brief">"Garba is a dance which people perform on Navratri"</string>
-    <string name="garba">
-        "Garba (ગરબા in Gujarati) is a form of dance which was originated in the state of Gujarat in India. The name is derived from the"
-        "Sanskrit term Garbha ("womb") and Deep ("a small earthenware lamp").\n\n"
-
-        "Many traditional garbas are performed around a centrally lit lamp or a picture or statue of the Goddess Shakti."
-        "The circular and spiral figures of Garba have similarities to other spiritual dances, such as those of Sufi "
-        "culture(Garba being an earlier tradition).\n\n"
-
-        "Traditionally, it is performed during the nine-day Hindu festival Navarātrī (Gujarati નવરાત્રી Nava = 9, rātrī = nights).\n\n"
-
-        "Both men and women usually wear colorful costumes while performing garba and dandiya. There is a huge interest in Garba among the"
-        "youth of India and in particular, the Gujarati diaspora."
+    <string name="temple2_name">"Chilukur Balaji"</string>
+    <string name="temple2_brief">"The Balaji (Visa God )Temple is located at Chilkur."</string>
+    <string name="chilukur">
+        "Chilkur Balaji Temple, popularly known as \'Visa Balaji Temple\', is an ancient Hindu temple of Lord Balaji on the banks of Osman Sagar in Hyderabad.\n\n"
+        "The temple has been visited by great Acharyas from time to time. A visit to the temple is a must for the Jeer of Sri Ahobila Mutt every time he visits the twin cities, and in the temple is installed the idol of the first Jeer. The Tilakayaths of Sri Vallabhacharya Sampradaya have been regularly visiting the shrine. Jagadguru Sri Sankaracharya of Sringeri Mutt and his disciple graced the efforts of the trustees in improving the temple."
     </string>
 
-    <string name="event2_name">"Kankaria Carnival"</string>
-    <string name="event2_brief">"Week-long cultural festival"</string>
-    <string name="kankaria_carnival">
-        "Kankaria Carnival is a week-long festival being held here in last week of December. Many cultural, art and social activities are "
-        "organised during carnival.\n\n"
-
-        "The annual Kankaria carnival has several attractions including an augmented reality show, flogos, a light and sound show and other"
-        "attractions. The lakefront buzzes with activity."
+    <string name="museum1_name"> Salar Jung Museum</string>
+    <string name="museum1_brief">A Popular Museum with ancient artificats in country</string>
+    <string name="salarjung_museum">
+        "The Salar Jung Museum is an art museum located at Darushifa, on the southern bank of the Musi river in the city of Hyderabad, Telangana, India. It is one of the three National Museums of India.\n\n"
+        "The Salar Jung Museum of Hyderabad is a repository of the artistic achievements of diverse European, Asian and Far Eastern countries of the world. The major portion of this collection was acquired by Nawab Mir Yousuf Ali Khan popularly known as Salar Jung III. The zeal for acquiring art objects continued as a family tradition for three generations of Salar Jungs. In 1914, Salar Jung III, after having relinquished the post of Prime Minister to H.E.H., the Nizam VII, Nawab Mir Osman Ali Khan, devoted rest of his entire life in collecting and enriching the treasures of art and literature till he lived. The precious and rare art objects collected by him for a period of over forty years, find place in the portals of the Salar Jung Museum, as rare to very rare pieces of art.\n\n"
     </string>
 
-    <string name="museum1_name">Calico Textile Museum</string>
-    <string name="museum1_brief">A premier textile museum of the country</string>
-    <string name="calico_museum">
-        "The Calico Museum of Textiles at Ahmedabad, India, is the premier textile museum of the country, and one of the most celebrated "
-        "institutions of its kind in the world for its distinguished and comprehensive collection of textiles and artifacts.\n\n"
+    <string name="museum2_name">Birla Planetarium</string>
+    <string name="museum2_brief"> Birla Planetarium is India’s most modern planetarium</string>
+    <string name="birla_planetorium">
+        "Birla Planetarium is India’s most modern planetarium and first of its kind in the country. It is equipped with advanced technology from Japan and is built on Naubat Pahad adjacent to Kala Pahad. And the Science Museum stands tribute to the advancement achieved by Science and Technology.\n\n"
+        "The Birla Planetarium is a wing of the Science Center. The planetarium was inaugurated by Mr. N.T. Rama Rao, on 8 September 1985 and is one of three Birla Planetariums in India. The others are the M.P. Birla Planetarium in Kolkata and B.M. Birla Planetarium in Chennai.\n\n"
+        "The Dinosaurium is the newest addition to the planetarium and science center and opened in 2000.[3] Its exhibits include a 160-million-year-old mounted Kotasaurus yamanpalliensis,[4] excavated at Adilabad district in Telangana and presented to the Science Museum by the Geological Survey of India. The Dinosaurium also has a collection of smaller fossils of dinosaur eggs, marine shells and fossilised tree trunks.The Dinosaurium was the next phase of the Centre. A unique Natural History Gallery, the Dinosaurium was dedicated to the nation in July 2000. It is a truly breathtaking facility which displays a rare and magnificent fossil of the Dinosaur, Kotasaurus, belonging to the Lower Jurassic age, going back to about 160 million years.\n\n"
 
-        "The Calico collection along with those of Sarabhai Foundation’s collection of outstanding Bronzes, Pichhwais, Jain art objects "
-        "and Indian miniature paintings are housed at the Retreat complex of Sarabhai Foundation in the Shahibag area of the city.\n\n"
-
-        "Both the Calico Museum and the Sarabhai Foundation have major collections and an extensive programme of publications."
-    </string>
-
-    <string name="museum2_name">Vintage Car Museum</string>
-    <string name="museum2_brief"> A collections of Antique Vehicles</string>
-    <string name="auto_world">
-        "Auto World is a part of one of the most important collections of Antique Vehicles, Cars, Motorcycles, Utility Vehicles, Buggies etc."
-        "built byfamily of Shri Pranlal Bhogilal over the last century. It represents several of the greatest marques of cars from all over "
-        "the world, of all types and ages.\n\n"
-
-        "Auto World showcases that time of history when an automobile was not a mere means of transport but a symbol of wealth, power &amp; style;"
-        "the mighty ceremonial limousines, the romantic convertibles &amp; the snappy Sports Cars, cars specially coach built like Railway Saloons, "
-        "Horse drawn carriages, Boat tailed Wooden Speedsters, Shooting Brakes-Cars built for the rich &amp; famous.Cars to see and be seen in.\n\n"
-
-        "Auto World, various pavilions built on acres of verdant grounds showcase more than 100 of the finest cars in the world such as "
-        "Rolls-Rocyces, Bentleys, Daimlers, Langondas, Mercedeces, Maybach, Packards, Cadillacs, Buicks, Auburns, Cord, Lancias, Lincolns, "
-        "Chryslers and many other distinguished makes from USA, UK &amp; Europe. Most of the cars are coach built by renowned coach builders "
-        "like Hooper, Barker, Gurney-Nutting, Fleetwood, Labaron etc. They are all hand built to individual specifications of the buyer.\n\n"
-
-        "Here are special cars like Limousines &amp; Grand open Tourers for ceremonial Occasions, there are convertible cars for evening drives,"
-        "there are station wagons like boats as well as like a horse drawn carriage especially built for the family's evening drives in the "
-        "Dastan estate."
     </string>
 </resources>
